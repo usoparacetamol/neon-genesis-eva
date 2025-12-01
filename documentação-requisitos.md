@@ -16,6 +16,7 @@ mecânicas com evas (missões para matar anjos ou explorar o mapa), interação 
 Req Funcionais (RF)
 
 RF 001 - Sistema de movimentação
+desc: movimentação e detalhes de animação
 
     -movimentação tridimensional,
     -cabeça se move junto com a câmera, animações detalhadas
@@ -23,34 +24,48 @@ RF 001 - Sistema de movimentação
 
 RF 002 - Equipamentos e veículos
   Evas
+  desc: funcionamento e detalhes dos evas
 
     -Movimentação detalhada e tridimensional, 
     -será usado para as missões e fará parte da história, 
     -poderá matar anjos ou explorar o mapa
 
   AutoMbilisticos
+  desc: movimentação e detalhes dos veículos
   
-    -carro da misato, 
+    -carro da misato 
+    velocidade: 50-70 studs/s
     -avião utilizado pelo gendo ikari para ir a lugares distantes
+    velocidade: 100-110 studs/s
 
 
 RF 003 - Inimigos
   Anjos
+  desc: principais inimigos e detalhes dos anjos
 
-    -principais inimigos, 
+    -principais inimigos,
      Praticamente todos igual ao anime, movimentação detalhada, será minibosses
+     os anjos principais serão bosses (ex: ramiel)
 
 RF 004 - Mapa
+desc: lugares e detalhamento do mapa
 
-    -neotokyo 3 - tamanho considerável
+    -neotokyo 3 
+    tamanho considerável
     -apartamento da misato
-    -túmulo da yui ikari
+    lugar de descanso/casa do jogador
+    -cemiterio/túmulo da yui ikari
+    cemitério dos personagens que morrerem durante o jogo
     -escola do shinji
+    lugar de interação com os amigos do shinji, buscar mais informações sobre o mundo de evangelion e os evas
+    -NERV
+    base de operações/missões e interação com as crianças/pilotos
   
   Mini Mapa
-  
-    -Mini mapa no canto superior da tela, podendo ser aberto no pc com uma          tecla, 
-    -mobile pressionando encim
+  desc: minimapa do jogo
+
+    -Mini mapa no canto superior da tela, podendo ser aberto no pc com uma         tecla, 
+    mobile pressionando encima
 
   Teleporte
   
@@ -74,4 +89,24 @@ RF 005 - NPC's
     
 Req Não Funcionas (RNF)
 
-RNF 001 - 
+RNF 001 - Fps
+desc: desempenho do jogo
+
+    -deve rodar a 60 fps nas configurações moderadas e em celulares
+    -rodar 120 fps em configurações baixas e em pc's potentes
+
+RNF 002 - Tutorial
+desc: tutorial de movimentação com eva e detalhes do jogo
+
+    -tutorial intuitivo e dinâmico, explicando como utilizar os evas e explorar o mundo
+
+RNF 003 - Interface/UI
+desc: ui do jogo
+
+    -deve seguir os parâmetros de resolução do usuário
+    -menus dinâmicos
+
+RNF 004 - Expansões
+desc: expansão de conteúdo do jogo
+
+    - Sistema deve permitir expansão futura de mapas e NPCs.

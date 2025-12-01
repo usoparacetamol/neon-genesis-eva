@@ -61,6 +61,7 @@ desc: lugares e detalhamento do mapa
     lugar de interação com os amigos do shinji, buscar mais informações sobre o mundo de evangelion e os evas
     -NERV
     base de operações/missões e interação com as crianças/pilotos
+    - Adicionar ciclo de dia/noite e clima dinâmico.
   
   Mini Mapa
   desc: minimapa do jogo

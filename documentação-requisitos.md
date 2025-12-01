@@ -14,6 +14,7 @@ Ideia inicial: jogo inspirado em evangelion, história de escolhas parecida com 
 mecânicas com evas (missões para matar anjos ou explorar o mapa), interação com npcs 
 
 Req Funcionais (RF)
+
 RF 001 - Sistema de movimentação
 
     -movimentação tridimensional,
@@ -72,4 +73,5 @@ RF 005 - NPC's
     -civis
     
 Req Não Funcionas (RNF)
-    RNF 001 - 
+
+RNF 001 - 

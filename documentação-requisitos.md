@@ -1,116 +1,143 @@
-Informações Gerais
-________________________________________________
-Nome: Neon Genesis Eva
-gênero: história, rpg
-público alvo: 9+
-data: 30/11/25
-versão do documento: 1.0
+# Neon Genesis Eva
 
-sinopse: você se torna o protagonista, com seus próprios pensamentos, estilo de vida
-e ideais, viva a história de evangelion e tome suas próprias decisões, mudando o rumo
-  da história.
-  
-Ideia inicial: jogo inspirado em evangelion, história de escolhas parecida com a do anime, 
-mecânicas com evas (missões para matar anjos ou explorar o mapa), interação com npcs 
+## Informações Gerais
+---
+- **Nome:** Neon Genesis Eva  
+- **Gênero:** história, rpg  
+- **Público alvo:** 9+  
+- **Data:** 30/11/25  
+- **Versão do documento:** 1.1
 
-Req Funcionais (RF)
+### Sinopse
+Você se torna o protagonista, com seus próprios pensamentos, estilo de vida e ideais. Viva a história de Evangelion e tome suas próprias decisões, mudando o rumo da história.
 
-RF 001 - Sistema de movimentação
-desc: movimentação e detalhes de animação
+### Ideia inicial
+Jogo inspirado em Evangelion, história de escolhas parecida com a do anime, mecânicas com evas (missões para matar anjos ou explorar o mapa), interação com NPCs.
 
-    -movimentação tridimensional,
-    -cabeça se move junto com a câmera, animações detalhadas
-    -pc: wasd; mobile: "bolinha"
+---
 
-RF 002 - Equipamentos e veículos
-  Evas
-  desc: funcionamento e detalhes dos evas
+## Requisitos Funcionais (RF)
 
-    -Movimentação detalhada e tridimensional, 
-    -será usado para as missões e fará parte da história, 
-    -poderá matar anjos ou explorar o mapa
-    Evas terão customização (armas, upgrades).  
+### RF 001 - Sistema de movimentação
+**Desc:** movimentação e detalhes de animação
 
-  AutoMbilisticos
-  desc: movimentação e detalhes dos veículos
-  
-    -carro da misato 
-    velocidade: 50-70 studs/s
-    -avião utilizado pelo gendo ikari para ir a lugares distantes
-    velocidade: 100-110 studs/s
+    - movimentação tridimensional  
+    - cabeça se move junto com a câmera, animações detalhadas  
+    - PC: WASD; Mobile: "bolinha"  
+    - sistema de corrida e stamina para limitar movimentação prolongada  
+    - animações de nado e parkour simples para exploração  
 
+---
 
-RF 003 - Inimigos
-  Anjos
-  desc: principais inimigos e detalhes dos anjos
+### RF 002 - Equipamentos e veículos
+#### Evas
+**Desc:** funcionamento e detalhes dos evas
 
-    -principais inimigos,
-     Praticamente todos igual ao anime, movimentação detalhada, será minibosses
-     os anjos principais serão bosses (ex: ramiel)
+    - movimentação detalhada e tridimensional  
+    - será usado para as missões e fará parte da história  
+    - poderá matar anjos ou explorar o mapa  
+    - sistema de customização básica (cores, armas secundárias)  
+    - barra de energia que limita tempo de uso do Eva
 
-RF 004 - Mapa
-desc: lugares e detalhamento do mapa
+#### Automobilísticos
+**Desc:** movimentação e detalhes dos veículos
 
-    -neotokyo 3 
-    tamanho considerável
-    -apartamento da misato
-    lugar de descanso/casa do jogador
-    -cemiterio/túmulo da yui ikari
-    cemitério dos personagens que morrerem durante o jogo
-    -escola do shinji
-    lugar de interação com os amigos do shinji, buscar mais informações sobre o mundo de evangelion e os evas
-    -NERV
-    base de operações/missões e interação com as crianças/pilotos
-    - Adicionar ciclo de dia/noite e clima dinâmico.
-  
-  Mini Mapa
-  desc: minimapa do jogo
+    - carro da Misato  
+    - velocidade: 50-70 studs/s  
+    - avião utilizado pelo Gendo Ikari para ir a lugares distantes  
+    - velocidade: 100-110 studs/s  
+    - postos de gasolina para abastecer o carro
 
-    -Mini mapa no canto superior da tela, podendo ser aberto no pc com uma         tecla, 
-    mobile pressionando encima
+---
 
-  Teleporte
-  
-    -cutscene com o avião do gendo ikari, podendo ser usado para lugares mais       distantes
-     do mapa e missões
+### RF 003 - Inimigos
+#### Anjos
+**Desc:** principais inimigos e detalhes dos anjos
 
-RF 005 - NPC's
-  Npcs de missão
-  
-    -Misato Katsuragi, Gendo Ikari, Funcionários da NERV
+    - principais inimigos  
+    - praticamente todos igual ao anime, movimentação detalhada, serão minibosses  
+    - os anjos principais serão bosses (ex: Ramiel)  
+    - **Adição:** cada anjo terá padrão de ataque único (ex: laser, corpo a corpo, explosão)  
+    - sistema de fases nos bosses (mudança de comportamento após perder vida)  
 
-  Npcs de história/interação
-  
-    -personagens principais do anime
-     terão árvore de diálogos com múltiplas escolhas.
-    -Incluir sistema de afinidade/reputação (ex.: relação com Misato ou Asuka).  
+---
 
-  Npcs de ambientação
-  
-    -Fucionários da nerv
-    -alunos da escola do shinji
-    -civis
-    
-Req Não Funcionas (RNF)
+### RF 004 - Mapa
+**Desc:** lugares e detalhamento do mapa
 
-RNF 001 - Fps
-desc: desempenho do jogo
+    - NeoTokyo 3 – tamanho considerável  
+    - Apartamento da Misato – lugar de descanso/casa do jogador  
+    - Cemitério/túmulo da Yui Ikari – cemitério dos personagens que morrerem durante o jogo  
+    - Escola do Shinji – interação com amigos, busca de informações sobre o mundo de Evangelion e os evas  
+    - NERV – base de operações/missões e interação com pilotos  
+    - ciclo de dia/noite e clima dinâmico (chuva, sol, nublado)  
+    - objetos interativos (portas, computadores, itens coletáveis)  
 
-    -deve rodar a 60 fps nas configurações moderadas e em celulares
-    -rodar 120 fps em configurações baixas e em pc's potentes
+#### Mini Mapa
+**Desc:** minimapa do jogo
 
-RNF 002 - Tutorial
-desc: tutorial de movimentação com eva e detalhes do jogo
+    - mini mapa no canto superior da tela  
+    - PC: abrir com tecla  
+    - Mobile: pressionando encima  
+    - ícones diferenciados para NPCs, inimigos e locais importantes  
 
-    -tutorial intuitivo e dinâmico, explicando como utilizar os evas e explorar o mundo
+#### Teleporte
 
-RNF 003 - Interface/UI
-desc: ui do jogo
+    - cutscene com o avião do Gendo Ikari, usado para lugares distantes do mapa e missões  
+    - sistema de desbloqueio de locais (teleporte só após visitar pela primeira vez)  
 
-    -deve seguir os parâmetros de resolução do usuário
-    -menus dinâmicos
+---
 
-RNF 004 - Expansões
-desc: expansão de conteúdo do jogo
+### RF 005 - NPCs
+#### NPCs de missão
 
-    - Sistema deve permitir expansão futura de mapas e NPCs.
+    - Misato Katsuragi, Gendo Ikari, Funcionários da NERV  
+
+#### NPCs de história/interação
+
+    - personagens principais do anime  
+
+#### NPCs de ambientação
+
+    - Funcionários da NERV  
+    - alunos da escola do Shinji
+    - civis  
+    - **Adição:** sistema de afinidade/reputação com NPCs principais (decisões afetam relação)  
+    - diálogos interativos com múltiplas escolhas  
+
+---
+
+## Requisitos Não Funcionais (RNF)
+
+### RNF 001 - FPS
+**Desc:** desempenho do jogo
+
+    - deve rodar a 60 FPS nas configurações moderadas e em celulares  
+    - rodar 120 FPS em configurações baixas e em PCs potentes  
+    - **Adição:** resolução mínima suportada 720p, máxima 1080p  
+
+---
+
+### RNF 002 - Tutorial
+**Desc:** tutorial de movimentação com Eva e detalhes do jogo
+
+    - tutorial intuitivo e dinâmico, explicando como utilizar os evas e explorar o mundo  
+    - dicas rápidas na tela durante missões (ex: "pressione E para interagir")  
+
+---
+
+### RNF 003 - Interface/UI
+**Desc:** UI do jogo
+
+    - deve seguir os parâmetros de resolução do usuário  
+    - menus dinâmicos  
+    - acessibilidade (legendas, contraste, tamanho de fonte ajustável)  
+
+---
+
+### RNF 004 - Expansões
+**Desc:** expansão de conteúdo do jogo
+
+    - sistema deve permitir expansão futura de mapas e NPCs  
+    - compatibilidade retroativa (expansões não quebram saves antigos)  
+    - possibilidade de eventos sazonais (Halloween, Natal, etc.)

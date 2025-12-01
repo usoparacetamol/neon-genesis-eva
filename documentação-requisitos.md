@@ -81,6 +81,8 @@ RF 005 - NPC's
   Npcs de história/interação
   
     -personagens principais do anime
+     terão árvore de diálogos com múltiplas escolhas.
+    -Incluir sistema de afinidade/reputação (ex.: relação com Misato ou Asuka).  
 
   Npcs de ambientação
   

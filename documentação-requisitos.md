@@ -29,6 +29,7 @@ RF 002 - Equipamentos e veículos
     -Movimentação detalhada e tridimensional, 
     -será usado para as missões e fará parte da história, 
     -poderá matar anjos ou explorar o mapa
+    Evas terão customização (armas, upgrades).  
 
   AutoMbilisticos
   desc: movimentação e detalhes dos veículos
